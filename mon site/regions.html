@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="decoration/imagesdecoratives/afrique.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="decoration/css/general.css" />
+    <link rel="stylesheet" href="decoration/css/regions.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="decoration/js/script.js" defer></script>
+    <script src="decoration/js/decompte.js" defer></script>
+    <script src="decoration/js/ajoutexte.js" defer></script>
+    <script src="decoration/js/hamburger.js" defer></script>
+    <title>menu en HTML</title>
+  </head>
+  <body>
+    <header>
+      <!-- menu de navigation -->
+      <!--nav>ul>il*4>a -->
+      <!-- sous-menu-->
+      <!--li>a+ul>li*2>a-->
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <!-- icône hamburger avec animation CSS -->
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </span>
+
+        <ul class="menu" id="js-menu">
+          <li>
+            <a href="index.html"
+              ><i class="fa-solid fa-house-chimney"></i> Accueil</a
+            >
+          </li>
+
+          <li>
+            <a href="mission.html">
+              <i class="fa-solid fa-calendar-days"></i>Mission</a
+            >
+          </li>
+          <li>
+            <a href="Regions.html"
+              ><i class="fa-solid fa-location-dot"> </i>Régions</a
+            >
+            <ul>
+              <li><a href="afrique-centrale.html">Afrique Centrale</a></li>
+              <li><a href="afrique-du-nord.html">Afrique du Nord</a></li>
+              <li><a href="afrique-du-Sud.html">Afrique du Sud</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="member.html"> <i class="fa-solid fa-users"> </i>Members</a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <i class="fa-sharp fa-solid fa-phone"> </i>Contact</a
+            >
+          </li>
+          <li>
+            <a href="faq.html"
+              ><i class="fa-solid fa-circle-question"></i> FAQ</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <img
+        src="decoration/imagesdecoratives/image1.jpg"
+        alt="header"
+        class="header"
+      />
+    </header>
+    <h1>Régions</h1>
+    <p>Cette page présente quelque régions d'Afrique:</p>
+    <div class="sous-items">
+      <div id="liste"></div>
+      <div class="notes">
+        <h1>L'Afrique du Nord</h1>
+        <img
+          src="decoration/imagesdecoratives/egypt.jpg"
+          alt="sphynx"
+          id="pic1"
+        />
+        <p class="texte">
+          connue pour son impact historique,pour la présence de ses
+          déserts,l'Afrique du Nord regroupe des pays hautement sollicités par
+          les touristes dont le nombres ne cesse de croitre chaque année. une
+          occasion idéale de cette partie de diversifier sa population,
+          d'augmenter son économie. Lorem ipsum dolor sit amet consectetur Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Odio, consequuntur
+          nobis quia consequatur obcaecati numquam quod, eum officia fuga dolore
+          molestias magnam sapiente dicta autem minus cupiditate inventore
+          aliquam non.
+
+          <span class="fin">...</span>
+
+          <span class="plus-texte">
+            adipisicing elit. Ipsam voluptatibus voluptate facilis labore ea et
+            facere minima molestiae, ad iure sed odio nemo asperiores, veritatis
+            quae corporis qui deleniti placeat a accusantium consectetur. Odit
+            amet molestias quas? Dignissimos laboriosam recusandae sit delectus
+            atque, reiciendis rem quam ex, consequuntur dolor consequatur non
+            ipsam! Reiciendis assumenda beatae quam?lorem50
+          </span>
+        </p>
+        <a class="bouton-lire-plus"
+          ><i class="fa-solid fa-chevron-down fa-2xl" style="color: #56d758"></i
+        ></a>
+        <div class="bande">
+          <a href="afrique-du-nord.html" class="bouton">Plus d'informations</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="notes">
+      <h1>l'Afrique Centrale</h1>
+      <img
+        src="decoration/imagesdecoratives/chutes.jpg"
+        alt="chutes d'EKOM-KAM"
+        id="pic2"
+      />
+      <p class="texte">
+        Cette partie du continent est dotée d'une diversité culturelle autant
+        dans les langues que dans les traditions.Elle est aussi dotée de sites
+        incroyables et d'un écosysteme assez interessant a découvrir Lorem
+        ipsum, dolor sit amet consectetur adipisicing elit. Beatae delectus
+        eveniet facere tempora reiciendis laudantium perspiciatis laboriosam
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+        velit! Obcaecati esse fugit praesentium maxime hic, consequatur
+        repudiandae nesciunt id.
+
+        <span class="fin">...</span>
+
+        <span class="plus-texte">
+          possimus, porro adipisci vitae laborum dolores nemo dolor magnam cum
+          rerum nesciunt veritatis id iste ducimus quidem facilis, voluptatibus
+          ipsum. Ducimus ratione optio omnis ad velit excepturi odit cumque!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse
+          eius voluptas minima inventore quam, consequatur commodi magni ipsa
+          delectus, alias explicabo itaque sapiente eaque dignissimos obcaecati
+          omnis amet officiis?
+        </span>
+      </p>
+      <a class="bouton-lire-plus"
+        ><i class="fa-solid fa-chevron-down fa-2xl" style="color: #56d758"></i
+      ></a>
+      <div class="bande">
+        <a href="afrique-centrale.html" class="bouton">Plus d'informations</a>
+      </div>
+    </div>
+
+    <div class="notes">
+      <h1>L'Afrique Australe</h1>
+      <img
+        src="decoration/imagesdecoratives/paysagesud.jpg"
+        alt="Johannesburg"
+        id="pic3"
+      />
+      <p class="texte">
+        Cette région compte plus de 170 millions d'habitants et s'étend sur près
+        de 4500 kilomètres du nord au sud et 4000 kilomètres de la côte
+        atlantique au littoral mozambicain, baigné par l'océan Indien.Elle
+        couvre plusieurs pays naturellement connus pour leur espaces
+        touristiques. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Ab beatae nobis, sed impedit laboriosam porro pariatur harum, ullam vero
+        commodi hic aliquam nulla earum quia corporis amet fuga
+        <span class="fin">...</span>
+
+        <span class="plus-texte">
+          architecto nostrum corrupti. Vero nihil deleniti suscipit libero ab
+          blanditiis, ut facere necessitatibus? Dicta vel vero dolor quisquam in
+          nulla rerum autem iste ipsa voluptatem iure corporis obcaecati nobis,
+          amet maiores doloribus harum voluptas minima, quam non culpa et
+          aperiam. Nulla ipsam harum vero laborum temporibus nihil aspernatur
+          saepe doloremque dolorem fugit, earum, necessitatibus quo iure
+          inventore veritatis, aliquam at! Qui dolore quis quia amet? Et at
+          natus quam, illo ratione consectetur!
+        </span>
+      </p>
+      <a class="bouton-lire-plus"
+        ><i class="fa-solid fa-chevron-down fa-2xl" style="color: #56d758"></i
+      ></a>
+      <div class="bande">
+        <a href="afrique-du-sud.html" class="bouton"> Plus d'informations</a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        copyright &copy;<span id="annee"></span> Abigail Samuela Moussango
+        Epossi. Tout droits réservés
+      </div>
+
+      <ul class="social-icon">
+        <li>
+          <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="www.reddit.com"><i class="fa-brands fa-reddit"></i></a>
+        </li>
+        <li>
+          <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

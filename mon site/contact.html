@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="decoration/imagesdecoratives/afrique.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="decoration/css/general.css" />
+    <link rel="stylesheet" href="decoration/css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- This link will always fetch the latest version of Balloon.css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/balloon-css/balloon.min.css"
+    />
+    <script src="decoration/js/hamburger.js" defer></script>
+    <script src="decoration/js/validation.js" defer></script>
+    <script src="decoration/js/script.js" defer></script>
+    <title>menu en HTML</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      /*.message{
+        position: absolute;
+        top:0;
+        left:0;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        padding: 3px;
+        line-height: 24px;
+        display: none;
+
+      }*/
+      .outil {
+        --balloon-color: blue;
+        --baloon-font-size: 20px;
+        border: radius 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- menu de navigation -->
+      <!--nav>ul>il*4>a -->
+      <!-- sous-menu-->
+      <!--li>a+ul>li*2>a-->
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <!-- icône hamburger avec animation CSS -->
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </span>
+
+        <ul class="menu" id="js-menu">
+          <li>
+            <a href="index.html"
+              ><i class="fa-solid fa-house-chimney"></i> Accueil</a
+            >
+          </li>
+
+          <li>
+            <a href="mission.html">
+              <i class="fa-solid fa-calendar-days"></i>Mission</a
+            >
+          </li>
+          <li>
+            <a href="Regions.html"
+              ><i class="fa-solid fa-location-dot"> </i>Régions</a
+            >
+            <ul>
+              <li><a href="afrique-centrale.html">Afrique Centrale</a></li>
+              <li><a href="afrique-du-nord.html">Afrique du Nord</a></li>
+              <li><a href="afrique-du-Sud.html">Afrique du Sud</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="member.html"> <i class="fa-solid fa-users"> </i>Members</a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <i class="fa-sharp fa-solid fa-phone"> </i>Contact</a
+            >
+          </li>
+          <li>
+            <a href="faq.html"
+              ><i class="fa-solid fa-circle-question"></i> FAQ</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <img
+        src="decoration/imagesdecoratives/image1.jpg"
+        alt="header"
+        class="header"
+      />
+    </header>
+    <h1>Contact</h1>
+    <div class="container">
+      <!-- formulaire-->
+      <form action="contact.html" method="post" id="formulaire">
+        <fieldset>
+          <legend>Identification</legend>
+          <div class="input-container" id="nomlabel">
+            <!--input:text.nom-->
+            <div class="message" id="message-aide"></div>
+            <label
+              class="outil"
+              for="nom"
+              aria-label="Veuillez renseigners sur cette information "
+              data-balloon-pos="left"
+              >Entrez votre nom:</label
+            >
+            <input
+              type="text"
+              name="nom"
+              id="name"
+              class="nom"
+              placeholder="nom"
+              size="20"
+              date-baloon-length="xlarge"
+              aria-label="Champs obligatoire"
+            />
+            <span id="erreurNom" class="erreur"></span>
+
+            <br />
+            <br />
+
+            <!--input:text.prenom-->
+            <input
+              type="text"
+              name="prenom"
+              id="prenom"
+              class="prenom"
+              placeholder="prénom"
+            />
+          </div>
+          <div>
+            <input type="checkbox" id="genre1" name="genre1" value="boy" />
+            <label for="genre1">Homme</label>
+          </div>
+          <div>
+            <input type="checkbox" id="genre2" name="genre2" value="girl" />
+            <label for="genre2">Femme</label>
+          </div>
+
+          <!--input:text.nom-->
+          <div class="input-container" id="emailLabel">
+            <label for="couriel"> Email:</label>
+            <input
+              type="text"
+              name="email"
+              id="couriel"
+              class="email"
+              placeholder="example@email.com"
+            />
+            <span id="erreurEmail" class="erreur"></span>
+          </div>
+
+          <div class="input-container" id="zoneLabel">
+            <!--input:text.nom-->
+            <label for="pays"> Pays:</label>
+            <input
+              type="text"
+              name="pays"
+              id="pays"
+              class="pays"
+              placeholder="Autres"
+            />
+            <select name="list-pays" id="list-pays">
+              <option value="afrique">Afrique du sud</option>
+              <option value="allemagne">Allemagne</option>
+              <option value="algérie">Algérie</option>
+              <option value="burundi">Burundi</option>
+              <option value="cameroun">Cameroun</option>
+              <option value="canada">Canada</option>
+              <option value="cote d'ivoire">cote d'ivoire</option>
+              <option value="etats unis">États-unis</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <br />
+        <label for="titre">titre</label>
+        <input type="text" name="titre" id="titre" class="titre" />
+        <br />
+        <br />
+        <div class="commentaire">
+          <br />
+          <label for="commentaire"> Commentaire </label>
+          <textarea
+            rows="10"
+            cols="35"
+            name="commentaire"
+            id="commentaire"
+            placeholder="Laisser un commentaire à l'auteur"
+          ></textarea
+          ><br />
+        </div>
+        <div class="input-container">
+          <input type="submit" value=" Envoyer" />
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="copyright">
+        copyright &copy;<span id="annee"></span> Abigail Samuela Moussango
+        Epossi. Tout droits réservés
+      </div>
+
+      <ul class="social-icon">
+        <li>
+          <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="www.reddit.com"><i class="fa-brands fa-reddit"></i></a>
+        </li>
+        <li>
+          <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

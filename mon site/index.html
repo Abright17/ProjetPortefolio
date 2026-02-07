@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="decoration/imagesdecoratives/afrique.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="decoration/css/general.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="decoration/css/accueil.css" />
+    <script src="decoration/js/horloge.js" defer></script>
+    <script src="decoration/js/script.js" defer></script>
+    <script src="decoration/js/hamburger.js" defer></script>
+    <title>menu en HTML</title>
+  </head>
+  <body>
+    <header>
+      <!-- menu de navigation -->
+      <!--nav>ul>il*4>a -->
+      <!-- sous-menu-->
+      <!--li>a+ul>li*2>a-->
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <!-- icône hamburger avec animation CSS -->
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </span>
+
+        <ul class="menu" id="js-menu">
+          <li>
+            <a href="index.html"
+              ><i class="fa-solid fa-house-chimney"></i> Accueil</a
+            >
+          </li>
+
+          <li>
+            <a href="mission.html">
+              <i class="fa-solid fa-calendar-days"></i>Mission</a
+            >
+          </li>
+          <li>
+            <a href="Regions.html"
+              ><i class="fa-solid fa-location-dot"> </i>Régions</a
+            >
+            <ul>
+              <li><a href="afrique-centrale.html">Afrique Centrale</a></li>
+              <li><a href="afrique-du-nord.html">Afrique du Nord</a></li>
+              <li><a href="afrique-du-Sud.html">Afrique du Sud</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="member.html"> <i class="fa-solid fa-users"></i> Members</a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <i class="fa-sharp fa-solid fa-phone"> </i> Contact</a
+            >
+          </li>
+          <li>
+            <a href="faq.html"
+              ><i class="fa-solid fa-circle-question"></i> FAQ</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <img
+        src="decoration/imagesdecoratives/image1.jpg"
+        alt="header"
+        class="header"
+      />
+      <div class="invitation">
+        <p>
+          Une envie de découverte,de safari et d'autres activités sans vous
+          soucier de vos sous?
+        </p>
+        <a href="vignette.html" class="valid">
+          <i class="fa-sharp fa-solid fa-phone"> </i> Contactez-nous!</a
+        >
+      </div>
+    </header>
+    <div>
+      <a href="galerie-mobile.html" class="expo">Découverte culinaire</a>
+    </div>
+    <div>
+      <a href="paradestination.html" class="ville"> Nos destinations </a>
+    </div>
+    <div><a href="glider.html" class="picture"> zone paradisiaque</a></div>
+    <div id="evenement"></div>
+    <div class="event">
+      <h1>Visite gratuite au Mont Kilimandjaro dans:</h1>
+    </div>
+
+    <h1>Accueil</h1>
+    <br />
+    <p>
+      L'Afrique est un continent qui est bordé le long de ses 26 000 km de côtes
+      par la mer Méditerranée, la mer Rouge, l’océan Indien et l’océan
+      Atlantique. Elle recouvre cinqs régions en tout: l'Afrique du Nord,
+      l'Afrique de l'Ouest,l'Afrique de l'Est, l'Afrique centrale, l'Afrique du
+      Sud(l'Afrique australe).L'Afrique regorge de diverses cultures dans chaque
+      pays et dans chaque ville.
+    </p>
+
+    <p>
+      Ce site a pour but de présenter les différentes cultures qu'on peut
+      retrouver dans l'Afrique du Nord,l'Afrique centrale, et dans l'Afrique du
+      Sud(l'Afrique australe).
+    </p>
+    <div class="container">
+      <div class="images">
+        <a href="afrique-du-nord.html"
+          ><img
+            src="decoration/imagesdecoratives/layalger.jpg"
+            title="Poterie Algerienne"
+            alt=" poterie algerie"
+            class="card-image"
+          />
+        </a>
+        <a href="decoration/imagesdecoratives/layalger.jpg" class="title"
+          ><h3>Poterie Algérienne</h3></a
+        >
+        <p>
+          La poterie algérienne en Algérie est considérée comme un patrimoine
+          culturel et un guide culturel en Algérie, en particulier dans un
+          certain nombre de ses villes intérieures et côtières, où elle est
+          devenue une destination touristique sans visa
+        </p>
+      </div>
+
+      <div class="images">
+        <a href="afrique-centrale.html"
+          ><img
+            src="decoration/imagesdecoratives/ngondo.jpg"
+            title="Festivale Ngondo au Cameroun"
+            alt="ngondo"
+            class="card-image"
+          />
+        </a>
+        <a href="decoration/imagesdecoratives/ngondo.jpg" class="title"
+          ><h3>Festivale Ngondo au Cameroun</h3></a
+        >
+        <p>
+          Le Festivale Ngondo prend place au Cameroun au bord du fleuve Wouri
+          situé à Douala la capitale économique
+        </p>
+      </div>
+
+      <div class="images">
+        <a href="afrique-du-Sud.html"
+          ><img
+            src="decoration/imagesdecoratives/masquezambie.jpg"
+            title="masque zambien"
+            alt="Masques zambiens"
+            class="card-image"
+          />
+        </a>
+        <a href="decoration/imagesdecoratives/masquezambie.jpg" class="title"
+          ><h3>Masques Zambiens</h3></a
+        >
+        <p>
+          Les Masques zambiens sont des masques de protection divine et des
+          emblèmes de la culture Zambiennes
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="copyright">
+        copyright &copy;<span id="annee"></span> Abigail Samuela Moussango
+        Epossi. Tout droits réservés
+      </div>
+
+      <ul class="social-icon">
+        <li>
+          <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="www.reddit.com"><i class="fa-brands fa-reddit"></i></a>
+        </li>
+        <li>
+          <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
