@@ -7,6 +7,10 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="decoration/css/general.css" />
+    <link rel="stylesheet" href="decoration/css/afrique-centrale.css" />
+    <link rel="stylesheet" href="decoration/css/afrique-du-nord.css" />
+    <link rel="stylesheet" href="decoration/css/contact.css" />
+    <link rel="stylesheet" href="decoration/css/regions.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -18,6 +22,7 @@
     <script src="decoration/js/horloge.js" defer></script>
     <script src="decoration/js/script.js" defer></script>
     <script src="decoration/js/hamburger.js" defer></script>
+    <script src="decoration/js/pagefaq.js" defer></script>
     <title>menu en HTML</title>
   </head>
     <header>
@@ -35,36 +40,36 @@
 
         <ul class="menu" id="js-menu">
           <li>
-            <a href="index.html"
+            <a href="index.php"
               ><i class="fa-solid fa-house-chimney"></i> Accueil</a
             >
           </li>
 
           <li>
-            <a href="mission.html">
+            <a href="mission.php">
               <i class="fa-solid fa-calendar-days"></i>Mission</a
             >
           </li>
           <li>
-            <a href="Regions.html"
+            <a href="regions.php"
               ><i class="fa-solid fa-location-dot"> </i>Régions</a
             >
             <ul>
-              <li><a href="afrique-centrale.html">Afrique Centrale</a></li>
-              <li><a href="afrique-du-nord.html">Afrique du Nord</a></li>
-              <li><a href="afrique-du-Sud.html">Afrique du Sud</a></li>
+              <li><a href="afrique-centrale.php">Afrique Centrale</a></li>
+              <li><a href="afrique-du-nord.php">Afrique du Nord</a></li>
+              <li><a href="afrique-du-sud.php">Afrique du Sud</a></li>
             </ul>
           </li>
           <li>
-            <a href="member.html"> <i class="fa-solid fa-users"></i> Members</a>
+            <a href="member.php"> <i class="fa-solid fa-users"></i> Members</a>
           </li>
           <li>
-            <a href="contact.html">
+            <a href="contact.php">
               <i class="fa-sharp fa-solid fa-phone"> </i> Contact</a
             >
           </li>
           <li>
-            <a href="faq.html"
+            <a href="faq.php"
               ><i class="fa-solid fa-circle-question"></i> FAQ</a
             >
           </li>
@@ -80,7 +85,7 @@
           Une envie de découverte,de safari et d'autres activités sans vous
           soucier de vos sous?
         </p>
-        <a href="vignette.html" class="valid">
+        <a href="vignette.php" class="valid">
           <i class="fa-sharp fa-solid fa-phone"> </i> Contactez-nous!</a
         >
       </div>

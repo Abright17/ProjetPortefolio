@@ -1,12 +1,12 @@
 <?php include "header.php"; ?>
 <body>
     <div>
-      <a href="galerie-mobile.html" class="expo">Découverte culinaire</a>
+      <a href="galerie-mobile.php" class="expo">Découverte culinaire</a>
     </div>
     <div>
-      <a href="paradestination.html" class="ville"> Nos destinations </a>
+      <a href="paradestination.php" class="ville"> Nos destinations </a>
     </div>
-    <div><a href="glider.html" class="picture"> zone paradisiaque</a></div>
+    <div><a href="glider.php" class="picture"> zone paradisiaque</a></div>
     <div id="evenement"></div>
     <div class="event">
       <h1>Visite gratuite au Mont Kilimandjaro dans:</h1>
