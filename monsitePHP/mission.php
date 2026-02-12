@@ -1,3 +1,5 @@
+<?php include "header.php"; ?>
+<body class="page-mission">
 <h1>Sites à découvrir</h1>
 
     <table>
@@ -48,3 +50,5 @@
         <td>Explorer la diversité animale et végétale</td>
       </tr>
     </table>
+  </body>
+<?php include "footer.php"; ?>

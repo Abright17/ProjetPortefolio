@@ -1,3 +1,5 @@
+<?php include "header.php"; ?>
+<body Class= "page-member">
  <h1>Nos Membres/Our Member</h1>
 
     <form action="member.html">
@@ -27,3 +29,5 @@
     </form>
     <br />
     <br />
+ </body>
+<?php include "footer.php"; ?>

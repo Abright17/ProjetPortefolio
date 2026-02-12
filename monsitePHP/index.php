@@ -7,10 +7,17 @@
       <a href="paradestination.php" class="ville"> Nos destinations </a>
     </div>
     <div><a href="glider.php" class="picture"> zone paradisiaque</a></div>
-    <div id="evenement"></div>
-    <div class="event">
-      <h1>Visite gratuite au Mont Kilimandjaro dans:</h1>
-    </div>
+    <div><a href="vignette.php" class="picture"> Tourisme </a></div>
+   <div class="hero-left">
+  <p class="hero-kicker">Visite gratuite</p>
+
+  <div class="event">
+    <h1>au Mont Kilimandjaro</h1>
+    <span class="hero-underline"></span>
+  </div>
+
+  <div id="evenement" class="countdown-inline"> </div>
+</div>
 
     <h1>Accueil</h1>
     <br />
@@ -30,7 +37,7 @@
     </p>
     <div class="container">
       <div class="images">
-        <a href="afrique-du-nord.html"
+        <a href="afrique-du-nord.php"
           ><img
             src="decoration/imagesdecoratives/layalger.jpg"
             title="Poterie Algerienne"
@@ -50,7 +57,7 @@
       </div>
 
       <div class="images">
-        <a href="afrique-centrale.html"
+        <a href="afrique-centrale.php"
           ><img
             src="decoration/imagesdecoratives/ngondo.jpg"
             title="Festivale Ngondo au Cameroun"
@@ -68,7 +75,7 @@
       </div>
 
       <div class="images">
-        <a href="afrique-du-Sud.html"
+        <a href="afrique-du-Sud.php"
           ><img
             src="decoration/imagesdecoratives/masquezambie.jpg"
             title="masque zambien"

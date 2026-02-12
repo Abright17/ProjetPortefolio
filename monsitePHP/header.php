@@ -7,10 +7,8 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="decoration/css/general.css" />
-    <link rel="stylesheet" href="decoration/css/afrique-centrale.css" />
-    <link rel="stylesheet" href="decoration/css/afrique-du-nord.css" />
-    <link rel="stylesheet" href="decoration/css/contact.css" />
-    <link rel="stylesheet" href="decoration/css/regions.css" />
+    <link rel="stylesheet" href="decoration/css/slider.css" />
+    <link rel="stylesheet" href="decoration/css/lightbox.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -18,11 +16,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="decoration/css/accueil.css" />
     <script src="decoration/js/horloge.js" defer></script>
     <script src="decoration/js/script.js" defer></script>
     <script src="decoration/js/hamburger.js" defer></script>
     <script src="decoration/js/pagefaq.js" defer></script>
+    <script src="decoration/js/slider.js" defer></script>
+
     <title>menu en HTML</title>
   </head>
     <header>
@@ -75,17 +74,20 @@
           </li>
         </ul>
       </nav>
-      <img
-        src="decoration/imagesdecoratives/image1.jpg"
-        alt="header"
-        class="header"
-      />
+      <div class="header-slider">
+      <div class="slides">
+        <img src="decoration/imagesdecoratives/africa.jpg" class="slide active" alt="Afrique 1">
+        <img src="decoration/imagesdecoratives/2.jpg" class="slide" alt="Afrique 2">
+        <img src="decoration/imagesdecoratives/1.jpg" class="slide" alt="Afrique 3">
+      </div>
+      </div>
+
       <div class="invitation">
         <p>
           Une envie de découverte,de safari et d'autres activités sans vous
           soucier de vos sous?
         </p>
-        <a href="vignette.php" class="valid">
+        <a href="contact.php" class="valid">
           <i class="fa-sharp fa-solid fa-phone"> </i> Contactez-nous!</a
         >
       </div>
