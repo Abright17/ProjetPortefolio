@@ -1,1 +1,0 @@
-document.querySelector("#annee").textContent = new Date().getFullYear();
